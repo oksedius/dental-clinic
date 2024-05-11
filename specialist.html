@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental clinic</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html">
+          <span class="logo">LOGO</span>
+        </a>
+        <nav>
+          <ul>
+            <li class="active">
+              <a href="about.html">About the clinic</a>
+            </li>
+            <li class="active">
+              <a href="specialist.html">Specialists</a>
+            </li>
+            <li class="active">
+              <a href="#">Info</a>
+            </li>
+            <li class="active">
+              <a href="contact.html">Contacts</a>
+            </li>
+            <li class="btn">
+              <a id="openModal" href="#">Online registration</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2>Registration online</h2>
+        <form action="#" class="modal-form">
+          <div class="input-group">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              class="input-field"
+              placeholder=" "
+            />
+            <label for="fname">Your name and surname*</label>
+          </div>
+          <div class="input-group">
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              class="input-field"
+              placeholder=" "
+            />
+            <label for="phone"> Contact number*</label>
+          </div>
+          <div class="input-group">
+            <textarea
+              id="additional"
+              name="additional"
+              class="input-field"
+              placeholder=" "
+            ></textarea>
+            <label for="additional">Additional information*</label>
+          </div>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="specialist">
+      <div class="container-new">
+        <h3 class="specialist-h3">Specialists</h3>
+        <div class="specialist-main">
+          <div class="img-div-specialist">
+            <img
+              class="specialist-img"
+              src="./images/first_doctor.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-div">
+            <h3 class="specialist-doctor">Anna Shvets</h3>
+            <p class="specialist-info">
+              - Dental center hygienist, specializes in prevention and oral
+              hygiene.
+            </p>
+            <p class="specialist-info">
+              - Has a professional approach to teeth cleaning and plaque
+              treatment.
+            </p>
+            <p class="specialist-info">
+              - Patients appreciate her attention to detail and concern for
+              dental health.
+            </p>
+          </div>
+        </div>
+        <div class="specialist-main">
+          <div class="img-div-specialist">
+            <img class="specialist-img" src="./images/67.jpg" alt="" />
+          </div>
+          <div class="text-div">
+            <h3 class="specialist-doctor">Andrea Piacquadio</h3>
+            <p class="specialist-info">
+              - Dental assistant, provides support to doctors during procedures
+              and appointments.
+            </p>
+            <p class="specialist-info">
+              - Has excellent skills in operating equipment and maintaining
+              sterility.
+            </p>
+            <p class="specialist-info">
+              - Friendly and attentive to patients, creates a comfortable
+              atmosphere during the appointment.
+            </p>
+          </div>
+        </div>
+        <div class="specialist-main">
+          <div class="img-div-specialist">
+            <img
+              class="specialist-img"
+              src="./images/third_doctor.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-div">
+            <h3 class="specialist-doctor">Emily Johnson</h3>
+            <p class="specialist-info">
+              - Dentist, specializes in endodontics and orthodontics.
+            </p>
+            <p class="specialist-info">
+              - Has extensive experience in the field of dentistry for more than
+              15 years.
+            </p>
+            <p class="specialist-info">
+              - Known for his patience and care for patients, creates a friendly
+              atmosphere in the clinic.
+            </p>
+          </div>
+        </div>
+        <div class="specialist-main">
+          <div class="img-div-specialist">
+            <img
+              class="specialist-img"
+              src="./images/fourth_doctor.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-div">
+            <h3 class="specialist-doctor">Dalton Ngangi</h3>
+            <p class="specialist-info">
+              - Dental surgeon with a focus on implantation and oral surgery.
+            </p>
+            <p class="specialist-info">
+              - Studied at leading medical universities and completed
+              internships in prestigious clinics.
+            </p>
+            <p class="specialist-info">
+              - Has a reputation as a highly qualified specialist and an
+              excellent surgeon.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="first-footer">
+            <span class="logo-footer">LOGO</span>
+            <p class="first-footer-text">
+              For us, dentistry is not a job, but a vocation. We know that a
+              good dentist not only relieves pain, but also gives confidence and
+              joy of communication. So the highest reward for us is your trust
+              and sincere smiles!
+            </p>
+          </div>
+          <div class="second-footer">
+            <h4 class="second-footer-h4">Services</h4>
+            <ul class="second-footer-ul">
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Diagnostic</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Implantation</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Surgery</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Aesthetic dentistry</a>
+              </li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <h4 class="third-footer-contact">Contact us</h4>
+            <p class="third-footer-p">(067) 572 55 83</p>
+            <p class="third-footer-p">(044) 350 45 07</p>
+            <p class="third-footer-mail">info@dentalclinic.com.ua</p>
+            <p class="third-footer-d">Mon-Fri: 9:00 - 20:00</p>
+          </div>
+          <div class="fourth-footer">
+            <h4 class="fourth-footer-h4">Advice</h4>
+            <div class="footer-btn">
+              <a class="footer-btn-a" href="#">registration</a>
+            </div>
+            <div class="footer-svg">
+              <img
+                class="footer-svg-icons"
+                src="./images/facebook-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="footer-svg-icons"
+                src="./images/instagram-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="footer-svg-icons-youtube"
+                src="./images/youtube-svgrepo-com (1).svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="footer-copy">© 2024 — Dental clinic. All rights reserved.</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

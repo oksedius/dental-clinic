@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental clinic</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html">
+          <span class="logo">LOGO</span>
+        </a>
+        <nav>
+          <ul>
+            <li class="active">
+              <a href="about.html">About the clinic</a>
+            </li>
+            <li class="active">
+              <a href="specialist.html">Specialists</a>
+            </li>
+            <li class="active">
+              <a href="#">Info</a>
+            </li>
+            <li class="active">
+              <a href="contact.html">Contacts</a>
+            </li>
+            <li class="btn">
+              <a id="openModal">Online registration</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="modal open" id="myModal">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2>Registration online</h2>
+        <form action="#" class="modal-form">
+          <div class="input-group">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              class="input-field"
+              placeholder=" "
+            />
+            <label for="fname">Your name and surname*</label>
+          </div>
+          <div class="input-group">
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              class="input-field"
+              placeholder=" "
+            />
+            <label for="phone"> Contact number*</label>
+          </div>
+          <div class="input-group">
+            <textarea
+              id="additional"
+              name="additional"
+              class="input-field"
+              placeholder=" "
+            ></textarea>
+            <label for="additional">Additional information*</label>
+          </div>
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="container">
+        <div class="hero-section">
+          <h1>Smiles that Define You</h1>
+          <p>
+            We are dedicated to providing comprehensive dental care, from
+            routine check-ups and cleanings to advanced restorative and cosmetic
+            treatments. Your oral health and satisfaction are our top
+            priorities. Discover a brighter, healthier smile with us
+          </p>
+          <!-- <div class="btns">
+            <button>Online registration</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <div class="container">
+        <div class="services-main">
+          <p class="services-text">Services</p>
+          <div class="service-blocks">
+            <div class="block">
+              <div class="block-svg">
+                <img class="services-svg" src="./images/diagnost.svg" alt="" />
+              </div>
+              <p class="services-p">Diagnostic</p>
+              <span class="services-span"
+                >Computed tomography, panoramic radiography, teleroentgenogram -
+                allow in-depth analysis of the state of teeth and bone tissue,
+                examine ENT images and accurately determine the reason for the
+                visit.</span
+              >
+            </div>
+            <div class="block">
+              <div class="block-svg">
+                <img class="services-svg" src="./images/add.svg" alt="" />
+              </div>
+              <p class="services-p">Implantation</p>
+              <span class="services-span"
+                >A wide range of dental implant systems allows you to restore a
+                lost tooth or create a reliable structure for installing dental
+                prostheses in the shortest possible time. And computer
+                simulation of the operation makes this process predictable</span
+              >
+            </div>
+
+            <div class="block">
+              <div class="block-svg">
+                <img class="services-svg" src="./images/delete.svg" alt="" />
+              </div>
+              <p class="services-p">Surgery</p>
+              <span class="services-span"
+                >The goal of treatment is always to save the tooth, but in cases
+                where this is impossible, modern surgical methods are used.
+                Operative interventions are performed quickly, painlessly and,
+                most importantly, safely for the patient</span
+              >
+            </div>
+            <div class="block">
+              <div class="block-svg">
+                <img class="services-svg" src="./images/Estetic.svg" alt="" />
+              </div>
+              <p class="services-p">Aesthetic dentistry</p>
+              <span class="services-span"
+                >Improving a smile is truly a piece of jewelry and each case is
+                unique. The doctor will help you understand or choose whether it
+                will be ceramic veneers, tabs, restoration or high-quality
+                whitening</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about_us">
+      <div class="container">
+        <div class="about_us-main">
+          <div class="about_us-lll">
+            <h3 class="about_us-h">About Us</h3>
+            <p class="about_us-text">
+              Our company is a modern family-type dental clinic. For more than
+              10 years, we have been devotedly working for you, using the
+              highest standards of dental care. Our key advantages are a
+              guarantee of safety, an individual approach, modern treatment
+              protocols, teamwork, and a clear pricing policy. We really love
+              our work and write with your smiles!
+            </p>
+          </div>
+          <div class="about_us-img_div">
+            <img class="about_us-image" src="./images/nigger.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-team">
+      <div class="container">
+        <h3 class="our-team-h3">Our team</h3>
+        <div class="our-team_main">
+          <div class="our-team_main-div">
+            <img class="our-team-img" src="./images/first_doctor.jpg" alt="" />
+            <div class="overlay">
+              <span class="caption">Anna Shvets </span>
+            </div>
+          </div>
+          <div class="our-team_main-div">
+            <img class="our-team-img" src="./images/67.jpg" alt="" />
+            <div class="overlay">
+              <span class="caption">Andrea Piacquadio </span>
+            </div>
+          </div>
+          <div class="our-team_main-div">
+            <img class="our-team-img" src="./images/third_doctor.jpg" alt="" />
+            <div class="overlay">
+              <span class="caption">Emily Johnson </span>
+            </div>
+          </div>
+          <div class="our-team_main-div">
+            <img class="our-team-img" src="./images/fourth_doctor.jpg" alt="" />
+            <div class="overlay">
+              <span class="caption">Dalton Ngangi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="response">
+      <div class="container">
+        <div class="response-main">
+          <div class="response-background"></div>
+          <div class="response-flex">
+            <h3 class="responce-h3">Would you like to leave a review?</h3>
+            <button class="response-button">Leave a review</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="first-footer">
+            <span class="logo-footer">LOGO</span>
+            <p class="first-footer-text">
+              For us, dentistry is not a job, but a vocation. We know that a
+              good dentist not only relieves pain, but also gives confidence and
+              joy of communication. So the highest reward for us is your trust
+              and sincere smiles!
+            </p>
+          </div>
+          <div class="second-footer">
+            <h4 class="second-footer-h4">Services</h4>
+            <ul class="second-footer-ul">
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Diagnostic</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Implantation</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Surgery</a>
+              </li>
+              <li class="second-footer-li">
+                <a class="second-footer-li-a" href="#">Aesthetic dentistry</a>
+              </li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <h4 class="third-footer-contact">Contact us</h4>
+            <p class="third-footer-p">(067) 572 55 83</p>
+            <p class="third-footer-p">(044) 350 45 07</p>
+            <p class="third-footer-mail">info@dentalclinic.com.ua</p>
+            <p class="third-footer-d">Mon-Fri: 9:00 - 20:00</p>
+          </div>
+          <div class="fourth-footer">
+            <h4 class="fourth-footer-h4">Advice</h4>
+            <div class="footer-btn">
+              <a class="footer-btn-a" href="">registration</a>
+            </div>
+            <div class="footer-svg">
+              <img
+                class="footer-svg-icons"
+                src="./images/facebook-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="footer-svg-icons"
+                src="./images/instagram-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="footer-svg-icons-youtube"
+                src="./images/youtube-svgrepo-com (1).svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="footer-copy">© 2024 — Dental clinic. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
